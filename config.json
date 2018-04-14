@@ -1,0 +1,791 @@
+{
+  "theme": {
+    "name": "TabTheme",
+    "styles": [
+      "cyan",
+      "blue",
+      "default",
+      "simpleblue",
+      "purple",
+      "red",
+      "yellow",
+      "green"
+    ],
+    "version": "2.7",
+    "sharedTheme": {
+      "isPortalSupport": false,
+      "useHeader": false,
+      "useLogo": false
+    },
+    "customStyles": {
+      "mainBackgroundColor": "#487485"
+    }
+  },
+  "portalUrl": "www.arcgis.com",
+  "appId": "",
+  "authorizedCrossOriginDomains": [],
+  "title": "Business Manager and Organizer",
+  "subtitle": "",
+  "keepAppState": true,
+  "logo": "images/logo.png",
+  "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
+  "links": [],
+  "widgetOnScreen": {
+    "widgets": [
+      {
+        "uri": "themes/TabTheme/widgets/Header/Widget",
+        "position": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "height": 44,
+          "relativeTo": "browser"
+        },
+        "version": "2.7",
+        "id": "themes_TabTheme_widgets_Header_Widget_20",
+        "name": "Header"
+      },
+      {
+        "uri": "themes/TabTheme/widgets/Footer/Widget",
+        "position": {
+          "left": 0,
+          "right": 0,
+          "bottom": 0,
+          "height": 24,
+          "relativeTo": "browser"
+        },
+        "version": "2.7",
+        "id": "themes_TabTheme_widgets_Footer_Widget_21",
+        "name": "Footer"
+      },
+      {
+        "uri": "themes/TabTheme/widgets/SidebarController/Widget",
+        "position": {
+          "left": 0,
+          "top": 44,
+          "bottom": 24,
+          "relativeTo": "browser"
+        },
+        "version": "2.7",
+        "id": "themes_TabTheme_widgets_SidebarController_Widget_22",
+        "name": "SidebarController"
+      },
+      {
+        "uri": "widgets/HomeButton/Widget",
+        "position": {
+          "left": 7,
+          "top": 75,
+          "relativeTo": "map"
+        },
+        "version": "2.7",
+        "id": "widgets_HomeButton_Widget_23",
+        "name": "HomeButton"
+      },
+      {
+        "uri": "widgets/Scalebar/Widget",
+        "position": {
+          "left": 10,
+          "bottom": 25,
+          "relativeTo": "map"
+        },
+        "version": "2.7",
+        "id": "widgets_Scalebar_Widget_24",
+        "name": "Scalebar"
+      },
+      {
+        "uri": "widgets/Search/Widget",
+        "position": {
+          "left": 45,
+          "top": 5,
+          "relativeTo": "map"
+        },
+        "version": "2.7",
+        "id": "widgets_Search_Widget_25",
+        "name": "Search"
+      },
+      {
+        "uri": "widgets/Coordinate/Widget",
+        "position": {
+          "left": 10,
+          "bottom": 5,
+          "relativeTo": "map"
+        },
+        "version": "2.7",
+        "id": "widgets_Coordinate_Widget_26",
+        "name": "Coordinate",
+        "config": "configs/Coordinate/config_widgets_Coordinate_Widget_26.json"
+      },
+      {
+        "position": {
+          "left": 45,
+          "top": 45,
+          "width": 400,
+          "height": 410,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_27",
+        "name": "Select",
+        "version": "2.7",
+        "closeable": true,
+        "uri": "widgets/Select/Widget",
+        "config": "configs/Select/config__27.json"
+      },
+      {
+        "position": {
+          "left": 95,
+          "top": 45,
+          "width": 380,
+          "height": 410,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_28",
+        "name": "Edit",
+        "version": "2.7",
+        "closeable": true,
+        "uri": "widgets/Edit/Widget",
+        "config": "configs/Edit/config__28.json"
+      },
+      {
+        "position": {
+          "left": 145,
+          "top": 45,
+          "width": 380,
+          "height": 410,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_29",
+        "name": "Filter",
+        "version": "2.7",
+        "closeable": true,
+        "uri": "widgets/Filter/Widget",
+        "config": "configs/Filter/config__29.json"
+      },
+      {
+        "uri": "widgets/OverviewMap/Widget",
+        "position": {
+          "right": 0,
+          "bottom": 0,
+          "relativeTo": "map"
+        },
+        "version": "2.7",
+        "id": "widgets_OverviewMap_Widget_30",
+        "name": "OverviewMap"
+      },
+      {
+        "uri": "widgets/MyLocation/Widget",
+        "position": {
+          "left": 7,
+          "top": 110,
+          "relativeTo": "map"
+        },
+        "version": "2.7",
+        "id": "widgets_MyLocation_Widget_31",
+        "name": "MyLocation"
+      },
+      {
+        "uri": "widgets/AttributeTable/Widget",
+        "position": {
+          "bottom": 24,
+          "relativeTo": "browser"
+        },
+        "version": "2.7",
+        "id": "widgets_AttributeTable_Widget_32",
+        "name": "AttributeTable"
+      },
+      {
+        "uri": "widgets/Splash/Widget",
+        "position": {
+          "relativeTo": "browser"
+        },
+        "version": "2.7",
+        "id": "widgets_Splash_Widget_33",
+        "name": "Splash",
+        "config": "configs/Splash/config_widgets_Splash_Widget_33.json"
+      },
+      {
+        "uri": "widgets/ZoomSlider/Widget",
+        "position": {
+          "top": 5,
+          "left": 7,
+          "relativeTo": "map"
+        },
+        "version": "2.7",
+        "id": "widgets_ZoomSlider_Widget_34",
+        "name": "ZoomSlider"
+      },
+      {
+        "uri": "widgets/ExtentNavigate/Widget",
+        "visible": false,
+        "position": {
+          "top": 149,
+          "left": 7,
+          "relativeTo": "map"
+        },
+        "version": "2.7",
+        "id": "widgets_ExtentNavigate_Widget_35",
+        "name": "ExtentNavigate"
+      },
+      {
+        "uri": "widgets/FullScreen/Widget",
+        "position": {
+          "right": 8,
+          "top": 8,
+          "relativeTo": "map"
+        },
+        "version": "2.7",
+        "id": "widgets_FullScreen_Widget_36",
+        "name": "FullScreen"
+      }
+    ],
+    "panel": {
+      "uri": "jimu/OnScreenWidgetPanel",
+      "position": {
+        "relativeTo": "map"
+      }
+    }
+  },
+  "map": {
+    "3D": false,
+    "2D": true,
+    "position": {
+      "top": 44,
+      "right": 0,
+      "bottom": 24,
+      "left": 55
+    },
+    "itemId": "e08c0041dcd246d199f73c49dae65cb2",
+    "mapOptions": {
+      "extent": {
+        "xmin": 8663265.608219823,
+        "ymin": -2708071.078032595,
+        "xmax": 17576434.602495287,
+        "ymax": 2506768.739693883,
+        "spatialReference": {
+          "wkid": 102100
+        }
+      }
+    },
+    "id": "map",
+    "portalUrl": "www.arcgis.com",
+    "mapRefreshInterval": {
+      "useWebMapRefreshInterval": true
+    }
+  },
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/TabTheme/panels/TabPanel/Panel",
+      "position": {
+        "top": 44,
+        "left": 0,
+        "bottom": 22,
+        "relativeTo": "browser"
+      }
+    },
+    "widgets": [
+      {
+        "name": "AddData",
+        "version": "2.7",
+        "uri": "widgets/AddData/Widget",
+        "index": 2,
+        "id": "widgets_AddData_Widget_43",
+        "config": "configs/AddData/config_widgets_AddData_Widget_43.json"
+      },
+      {
+        "uri": "widgets/Legend/Widget",
+        "version": "2.7",
+        "id": "widgets_Legend_Widget_18",
+        "name": "Legend",
+        "index": 3
+      },
+      {
+        "uri": "widgets/LayerList/Widget",
+        "version": "2.7",
+        "id": "widgets_LayerList_Widget_19",
+        "name": "LayerList",
+        "index": 4,
+        "config": "configs/LayerList/config_widgets_LayerList_Widget_19.json"
+      },
+      {
+        "name": "Directions",
+        "label": "Navigation",
+        "version": "2.7",
+        "uri": "widgets/Directions/Widget",
+        "config": "configs/Directions/config_widgets_Directions_Widget_37.json",
+        "index": 5,
+        "id": "widgets_Directions_Widget_37"
+      },
+      {
+        "name": "Measurement",
+        "label": "Measure",
+        "version": "2.7",
+        "uri": "widgets/Measurement/Widget",
+        "config": "configs/Measurement/config_widgets_Measurement_Widget_38.json",
+        "index": 6,
+        "id": "widgets_Measurement_Widget_38"
+      },
+      {
+        "name": "Query",
+        "version": "2.7",
+        "uri": "widgets/Query/Widget",
+        "config": "configs/Query/config_widgets_Query_Widget_39.json",
+        "index": 7,
+        "id": "widgets_Query_Widget_39"
+      },
+      {
+        "name": "NearMe",
+        "label": "Objects Near Me",
+        "version": "2.7",
+        "IsController": false,
+        "uri": "widgets/NearMe/Widget",
+        "index": 8,
+        "id": "widgets_NearMe_Widget_40",
+        "config": "configs/NearMe/config_widgets_NearMe_Widget_40.json"
+      },
+      {
+        "name": "Analysis",
+        "version": "2.7",
+        "uri": "widgets/Analysis/Widget",
+        "config": "configs/Analysis/config_widgets_Analysis_Widget_41.json",
+        "index": 9,
+        "id": "widgets_Analysis_Widget_41"
+      },
+      {
+        "name": "PopupPanel",
+        "version": "2.6",
+        "uri": "widgets/PopupPanel/Widget",
+        "config": "configs/PopupPanel/config_widgets_PopupPanel_Widget_42.json",
+        "index": 10,
+        "id": "widgets_PopupPanel_Widget_42"
+      },
+      {
+        "name": "Screening",
+        "version": "2.7",
+        "IsController": false,
+        "uri": "widgets/Screening/Widget",
+        "config": "configs/Screening/config_widgets_Screening_Widget_44.json",
+        "index": 12,
+        "id": "widgets_Screening_Widget_44"
+      }
+    ],
+    "groups": []
+  },
+  "mobileLayout": {
+    "widgetOnScreen": {
+      "widgets": [
+        {
+          "uri": "themes/TabTheme/widgets/Header/Widget",
+          "position": {
+            "left": 0,
+            "top": 0,
+            "width": 55,
+            "height": 44,
+            "relativeTo": "browser"
+          },
+          "version": "2.7"
+        },
+        {
+          "uri": "themes/TabTheme/widgets/Footer/Widget",
+          "position": {
+            "left": 0,
+            "width": 0,
+            "bottom": 0,
+            "height": 0,
+            "relativeTo": "browser"
+          },
+          "version": "2.7"
+        },
+        {
+          "uri": "themes/TabTheme/widgets/SidebarController/Widget",
+          "position": {
+            "left": 0,
+            "top": 44,
+            "bottom": 0,
+            "relativeTo": "browser"
+          },
+          "version": "2.7"
+        },
+        {
+          "uri": "widgets/HomeButton/Widget",
+          "position": {
+            "left": 7,
+            "top": 75
+          },
+          "version": "2.7"
+        },
+        {
+          "uri": "widgets/Scalebar/Widget",
+          "position": {
+            "left": 10,
+            "bottom": 40,
+            "relativeTo": "map"
+          },
+          "version": "2.7"
+        },
+        {
+          "uri": "widgets/Search/Widget",
+          "position": {
+            "left": 45,
+            "top": 5
+          },
+          "version": "2.7"
+        },
+        {
+          "uri": "widgets/Coordinate/Widget",
+          "position": {
+            "left": 10,
+            "bottom": 20,
+            "relativeTo": "map"
+          },
+          "version": "2.7"
+        },
+        {
+          "position": {
+            "left": 45,
+            "top": 45,
+            "width": 400,
+            "height": 410
+          }
+        },
+        {
+          "position": {
+            "left": 95,
+            "top": 45,
+            "width": 380,
+            "height": 410
+          }
+        },
+        {
+          "position": {
+            "left": 145,
+            "top": 45,
+            "width": 380,
+            "height": 410
+          }
+        },
+        {
+          "uri": "widgets/OverviewMap/Widget",
+          "position": {
+            "right": 0,
+            "bottom": 0
+          },
+          "version": "2.7"
+        },
+        {
+          "uri": "widgets/MyLocation/Widget",
+          "inPanel": false,
+          "position": {
+            "left": 7,
+            "top": 110
+          },
+          "version": "2.7"
+        },
+        {
+          "uri": "widgets/AttributeTable/Widget",
+          "position": {
+            "bottom": 0,
+            "relativeTo": "map"
+          },
+          "version": "2.7"
+        },
+        {
+          "uri": "widgets/Splash/Widget",
+          "visible": false,
+          "position": {
+            "relativeTo": "browser"
+          },
+          "version": "2.7"
+        },
+        {
+          "uri": "widgets/ZoomSlider/Widget",
+          "visible": true,
+          "position": {
+            "top": 5,
+            "left": 7
+          },
+          "version": "2.7"
+        },
+        {
+          "uri": "widgets/ExtentNavigate/Widget",
+          "visible": false,
+          "position": {
+            "top": 149,
+            "left": 7
+          },
+          "version": "2.7"
+        },
+        {
+          "uri": "widgets/FullScreen/Widget",
+          "visible": false,
+          "position": {
+            "right": 8,
+            "top": 8
+          },
+          "version": "2.7"
+        }
+      ]
+    },
+    "widgetPool": {
+      "panel": {
+        "uri": "themes/TabTheme/panels/TabPanel/Panel",
+        "position": {
+          "top": 44,
+          "left": 0,
+          "bottom": 22,
+          "relativeTo": "browser"
+        }
+      }
+    },
+    "map": {
+      "position": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 55
+      }
+    }
+  },
+  "loadingPage": {
+    "backgroundColor": "#000000",
+    "backgroundImage": {
+      "visible": false
+    },
+    "loadingGif": {
+      "visible": true,
+      "uri": "/webappbuilder/apps/3/configs/loading/images/predefined_loading_4.gif",
+      "width": 34,
+      "height": 34
+    }
+  },
+  "wabVersion": "2.7",
+  "isTemplateApp": true,
+  "isWebTier": false,
+  "httpProxy": {
+    "useProxy": false,
+    "alwaysUseProxy": false,
+    "url": "",
+    "rules": []
+  },
+  "dataSource": {
+    "dataSources": {
+      "widget~widgets_Query_Widget_39~0": {
+        "id": "widget~widgets_Query_Widget_39~0",
+        "type": "Features",
+        "label": "Indonesia POI",
+        "dataSchema": {
+          "geometryType": "esriGeometryPoint",
+          "fields": [
+            {
+              "name": "FID",
+              "type": "esriFieldTypeOID",
+              "actualType": "int",
+              "alias": "FID",
+              "sqlType": "sqlTypeInteger",
+              "nullable": false,
+              "editable": false,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "osm_id",
+              "type": "esriFieldTypeString",
+              "actualType": "nvarchar",
+              "alias": "osm_id",
+              "sqlType": "sqlTypeNVarchar",
+              "length": 80,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "name",
+              "type": "esriFieldTypeString",
+              "actualType": "nvarchar",
+              "alias": "name",
+              "sqlType": "sqlTypeNVarchar",
+              "length": 97,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "amenity",
+              "type": "esriFieldTypeString",
+              "actualType": "nvarchar",
+              "alias": "amenity",
+              "sqlType": "sqlTypeNVarchar",
+              "length": 80,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "man_made",
+              "type": "esriFieldTypeString",
+              "actualType": "nvarchar",
+              "alias": "man_made",
+              "sqlType": "sqlTypeNVarchar",
+              "length": 80,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "shop",
+              "type": "esriFieldTypeString",
+              "actualType": "nvarchar",
+              "alias": "shop",
+              "sqlType": "sqlTypeNVarchar",
+              "length": 80,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "tourism",
+              "type": "esriFieldTypeString",
+              "actualType": "nvarchar",
+              "alias": "tourism",
+              "sqlType": "sqlTypeNVarchar",
+              "length": 243,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "opening_ho",
+              "type": "esriFieldTypeString",
+              "actualType": "nvarchar",
+              "alias": "opening_ho",
+              "sqlType": "sqlTypeNVarchar",
+              "length": 197,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "beds",
+              "type": "esriFieldTypeString",
+              "actualType": "nvarchar",
+              "alias": "beds",
+              "sqlType": "sqlTypeNVarchar",
+              "length": 80,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "rooms",
+              "type": "esriFieldTypeString",
+              "actualType": "nvarchar",
+              "alias": "rooms",
+              "sqlType": "sqlTypeNVarchar",
+              "length": 80,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "addr_full",
+              "type": "esriFieldTypeString",
+              "actualType": "nvarchar",
+              "alias": "addr_full",
+              "sqlType": "sqlTypeNVarchar",
+              "length": 157,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "addr_house",
+              "type": "esriFieldTypeString",
+              "actualType": "nvarchar",
+              "alias": "addr_house",
+              "sqlType": "sqlTypeNVarchar",
+              "length": 139,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "addr_stree",
+              "type": "esriFieldTypeString",
+              "actualType": "nvarchar",
+              "alias": "addr_stree",
+              "sqlType": "sqlTypeNVarchar",
+              "length": 156,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "addr_city",
+              "type": "esriFieldTypeString",
+              "actualType": "nvarchar",
+              "alias": "addr_city",
+              "sqlType": "sqlTypeNVarchar",
+              "length": 94,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "layer",
+              "type": "esriFieldTypeString",
+              "actualType": "nvarchar",
+              "alias": "layer",
+              "sqlType": "sqlTypeNVarchar",
+              "length": 100,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "path",
+              "type": "esriFieldTypeString",
+              "actualType": "nvarchar",
+              "alias": "path",
+              "sqlType": "sqlTypeNVarchar",
+              "length": 200,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            }
+          ],
+          "displayField": "",
+          "objectIdField": {
+            "name": "FID",
+            "type": "esriFieldTypeOID",
+            "actualType": "int",
+            "alias": "FID",
+            "sqlType": "sqlTypeInteger",
+            "nullable": false,
+            "editable": false,
+            "domain": null,
+            "defaultValue": null
+          },
+          "typeIdField": ""
+        }
+      }
+    },
+    "settings": {}
+  },
+  "logoLink": "http://"
+}
