@@ -1,0 +1,11 @@
+{
+  "name": "b_mo",
+  "version": "1.0.0",
+  "description": "<!DOCTYPE html>\r <html>\r <head>\r     <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r     <meta name=\"viewport\" content=\"initial-scale=1, maximum-scale=1, user-scalable=no\">\r <title>Readme</title>\r   <style>\r .selector{color:red;}\r .heading{\r background-color:#D8E0E2;\r background-repeat:repeat-x;\r border-bottom:1px solid #FFFFFF;\r border-top:1px solid #FFFFFF;\r color:black;\r font-family:Verdana,Arial,Helvetica,sans-serif;\r font-size:16px;\r font-weight:bold;\r letter-spacing:1.1px;\r margin:15px 0 10px;\r padding:3px 10px;\r text-align:center;\r }\r   </style>",
+  "main": "env.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
